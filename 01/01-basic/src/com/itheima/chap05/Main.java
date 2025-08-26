@@ -48,6 +48,7 @@ class Main {
         }
 
         Person person = new Person(name, pwd, age, weight, isSingle);
+        System.out.println("用户输入的信息:");
         person.show();
 
         sc.close();
